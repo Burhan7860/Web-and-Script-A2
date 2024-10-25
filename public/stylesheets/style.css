@@ -1,8 +1,159 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    background-image: linear-gradient(rgb(255, 0, 200), rgb(0, 238, 255));
+    color: rgb(7, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+nav {
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #000000;
+}
+#about img {
+    border-radius: 50%;
+    margin: 20px 0;
+    max-width: 150px;
+}
+
+#about p {
+    margin-top: 10px;
+}
+.skills-list {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.skills-list li {
+    list-style-type: none;
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #000000;
+}
+.projects-list {
+    margin: 20px 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.project a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #3c787e;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #447380;
+}
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
 }
