@@ -1,47 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projects | Burhan Chattha</title>
+<%- include('header') %>
 
-    <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
-<body>
-
-    <header>
-        <div class="container">
-            <h1>Burhan Chattha</h1>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/projects">Projects</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-            </nav>
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center display-4 mb-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <p class="bg-light p-4 border rounded shadow-sm">
+                    <strong>Case Study: Multi-Router PC Connectivity</strong><br><br>
+                    In this project, I designed and implemented a network that connected multiple routers to PCs located in different geographical areas. The goal was to establish seamless communication between the various PCs while ensuring efficient data transmission and minimizing latency.
+                    <br><br>
+                    The process involved configuring routers with appropriate IP addressing schemes, subnetting, and routing protocols to ensure proper communication between each device on the network. I worked with different networking devices like switches and hubs and used tools to simulate and monitor traffic between the routers and PCs. The project emphasized the importance of network scalability, reliability, and performance optimization.
+                    <br><br>
+                    Through this case study, I gained valuable experience in configuring routing protocols (e.g., OSPF, RIP), troubleshooting connectivity issues, and understanding the complexities of managing a multi-router network in a real-world environment.
+                </p>
+            </div>
         </div>
-    </header>
+    </div>
+</section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-list">
-                <div class="project">
-                    <p>Case Study: Multi-Router PC Connectivity
-
-                        In this project, I designed and implemented a network that connected multiple routers to PCs located in different geographical areas. The goal was to establish seamless communication between the various PCs while ensuring efficient data transmission and minimizing latency.
-                        
-                        The process involved configuring routers with appropriate IP addressing schemes, subnetting, and routing protocols to ensure proper communication between each device on the network. I worked with different networking devices like switches and hubs and used tools to simulate and monitor traffic between the routers and PCs. The project emphasized the importance of network scalability, reliability, and performance optimization.
-                        
-                        Through this case study, I gained valuable experience in configuring routing protocols (e.g., OSPF, RIP), troubleshooting connectivity issues, and understanding the complexities of managing a multi-router network in a real-world environment.</p>
-
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Burhan Chattha. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-</body>
-</html>
+<%- include('footer') %>

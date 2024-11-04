@@ -1,43 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me | Burhan Chattha</title>
+<%- include('header') %>
 
-    <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
-<body>
-
-    <header>
-        <div class="container">
-            <h1>Burhan Chattha</h1>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
-            </nav>
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center display-4 mb-4">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 text-center">
+                <img src="/images/burhan.jpg" alt="Burhan Chattha" class="img-fluid rounded-circle mb-3" style="width: 150px;">
+            </div>
+            <div class="col-md-8">
+                <p class="lead">
+                    Hi, my name is Burhan Chattha, and I love to eat, watch sports, and discover new fashions. As a front-end developer, my main goal is to combine creativity and functionality to create dynamic, user-friendly websites. I enjoy keeping up with new technological developments since it allows me to create dynamic and creative designs. Away from development, you may find me playing sports, experimenting in the kitchen with different flavors, or following the newest fashions. My passion for life and technology enables me to tackle every project with vigor and a fresh outlook.
+                </p>
+                <div class="text-center mt-4">
+                    <video controls class="w-100" style="max-width: 500px;">
+                        <source src="/images/burhan.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
         </div>
-    </header>
+    </div>
+</section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <img src="/images/burhan.jpg" alt="Burhan Chattha" style="width: 150px; border-radius: 50%;">
-            <p>Hi, My name is Burhan Chattha, and I love to eat, watch sports, and discover new fashions. As a front-end developer, my main goal is to combine creativity and functionality to create dynamic, user-friendly websites. I enjoy keeping up with new technological developments since it allows me to create dynamic and creative designs. Away from development, you may find me doing sports, experimenting in the kitchen with different flavors, or following the newest fashions. My passion for life and technology enable me to tackle every project with vigor and a new outlook.</p>
-            <video controls><source src="/images/burhan.mp4" type="video/mp4" >
-            </video><source src="/images/burhan.mp4" type="video/mp4" />
-            <video>
-        </div>
-    </section>
+<%- include('footer') %>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Burhan Chattha. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-</body>
-</html>
